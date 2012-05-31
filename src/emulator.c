@@ -11,8 +11,8 @@ emulator *emulator_new(void)
     e->r1 = (word *) malloc(sizeof(word));
     
     /* Set the values for anything inside the emulator struct */
-	*e->r0 = 0;
-	*e->r1 = 0;
+    *e->r0 = 0;
+    *e->r1 = 0;
     e->pc = 0;
     
     return e;
