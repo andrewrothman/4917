@@ -14,7 +14,7 @@ int main(int argsNum, char *args[])
     emulator *e;
     
     /* Handle arguments */
-    for (i = 0; i < argsNum; i++)
+    for (i = 1; i < argsNum; i++)
     {
         char *arg = args[i];
         
