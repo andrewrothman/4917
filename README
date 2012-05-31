@@ -17,4 +17,4 @@ with examples, make some and send me a pull request.
 
 How to run the countdown example:
 
-$ ./bin/4917 ../examples/countdown.4917
+$ ./bin/4917 examples/countdown.4917
