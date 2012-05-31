@@ -227,7 +227,7 @@ void emulator_run(emulator *e)
             default:
             {
                 fprintf(stderr, "Unknown instruction '%#x'\n", instruction);
-                /* exit(EXIT_FAILURE); */
+                exit(EXIT_FAILURE);
                 
                 break;
             }
