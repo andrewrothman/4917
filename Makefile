@@ -9,4 +9,4 @@ clean:
 	rm -rf bin/
 
 install:
-	
+	sudo cp bin/4917 /usr/bin
